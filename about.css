@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Albert+Sans:ital,wght@0,100..900;1,100..900&family=Spinnaker&display=swap');
+
+*{
+    font-family: "Spinnaker", sans-serif;
+    margin: 0;
+    padding: 0;
+    font-weight: 600;
+    /* background-color: blueviolet; */
+}
+.aboutus{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* padding: 20px 10vw; */
+    padding: 20px 55px;
+}
+.aboutus p{
+    font-weight: 400;
+    
+}
+.container1{
+    margin-top: 60px;
+    display: flex;
+    margin-bottom: 80px;
+}
+.content-1{
+    line-height: 1.8rem;
+    text-align: center;
+    color: rgb(6, 16, 77);
+    font-size: 1.1rem;
+    font-weight: 700;
+}
+.image1{
+    width: 750px;
+}
+.container2{
+    margin-top: 60px;
+    display: flex;
+    margin-bottom: 30px;
+}
+.content-2{
+    line-height: 1.8rem;
+    text-align: center;
+    color: rgb(6, 16, 77);
+    font-size: 1.1rem;
+    font-weight: 700;
+}
+.image2{
+    width: 750px;
+}
+.container3{
+    margin-top: 100px;
+    display: flex;
+}
+.content-3{
+    line-height: 1.8rem;
+    text-align: center;
+    color: rgb(6, 16, 77);
+    font-size: 1.1rem;
+    font-weight: 700;
+}
+.image3{
+    width: 700px;
+}
+footer{
+    background-color: #008080;
+    padding-bottom: 20px;
+}
+.footer{
+    /* background-color: #008080; */
+    color: white;
+    border-top: 2px solid rgba(14, 19, 67, 0.942);
+    padding: 30px 50px;
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-around;
+}
+.logo-foot img{
+    width: 300px;
+    height: 100px;
+}
+.content{
+    width: 400px;
+    line-height: 1.5rem;
+    color: rgb(4, 14, 35);
+}
+.foot-links li a{
+    color: rgb(4, 14, 35);
+}
+.foot-links li{
+    text-align: center;
+    margin: 15px 0px;
+    font-size: 1.1rem;
+}
+.social-links{
+    text-align: center;
+    font-size: 1.5rem;
+}
+.social-links li{
+    margin: 20px 0px;
+}
+.copyright{
+    text-align: center;
+    color: rgb(4, 14, 35);
+}

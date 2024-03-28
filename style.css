@@ -1,0 +1,229 @@
+@import url('https://fonts.googleapis.com/css2?family=Albert+Sans:ital,wght@0,100..900;1,100..900&family=Spinnaker&display=swap');
+
+/* sapgreen-: #008080
+ lightblue: #0d6efd*/
+ html{
+    overflow-x: hidden;
+ }
+
+*{
+    font-family: "Spinnaker", sans-serif;
+    margin: 0;
+    padding: 0;
+    font-weight: 600;
+    /* background-color: blueviolet; */
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+ul li{
+    list-style: none;
+}
+.navbar{
+    display: flex;
+    /* width: 100vw; */
+    align-items: center;
+    justify-content: space-around;
+    background-color: #008080;
+    padding: 1vw 0;
+    /* border-bottom: 2px solid BLACK; */
+    box-shadow: 0px 1px 6px black;
+    
+
+}
+.navbar .navoptions ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 40vw;
+    flex-wrap: wrap;
+}
+.navbar .logo img{
+    width: 10vw;
+    min-width: 55px;
+}
+.navbar .navoptions li :hover{
+    color: white;
+    padding: 5px 12px;
+    border-bottom: 2px solid white;
+    /* transition-duration: 3ms; */
+}
+.projects{
+    /* background-image: url(projects.svg);
+    background-repeat: no-repeat;
+    background-size: 600; */
+     /* margin: auto;  */
+     display: flex;
+     justify-content: center;
+     align-items: flex-end;
+     padding-top: 8px;
+     width: 100vw;
+ 
+}
+.projects img{
+    position: relative;
+    height: 30vw;
+}
+.projects button{
+    position: absolute;
+    margin-bottom: 5vw;
+    height: 4vw;
+    font-size: 1.3vw;
+    width: 18vw;
+    min-height: 20px;
+    min-width: 50px;
+    background-color: transparent;
+    border-radius: 10px;
+    border: 0px solid black;
+    box-shadow: inset 15px 0px 64px #008080;
+}
+.aboutus{
+    /* margin-top: 30px; */
+    /* width: 100vw; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5vw 0;
+    flex-wrap: wrap;
+}
+.aboutus p{
+    font-weight: 400;
+    font-size: 1.7vw;
+}
+.left{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 45vw;
+    gap: 10px;
+}
+.right{
+    width: 45vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.right img{
+    width: 25vw;
+}
+#head1{
+    display: flex;
+    font-size: 3.5vw;
+}
+#color{
+    color: #008080;
+}
+.left h3{
+    color: rgb(99, 98, 98);
+    font-size: 2vw;
+}
+.left .btn{
+    font-weight: 400;
+    /* color: white !important; */
+}
+.left .btn button{
+    border: 1px solid black;
+    border-radius: 9px;
+    background-color: #008080;
+    padding: 1vw 2.5vw;
+    font-size: 1.6vw;
+    /* color: white !important; */
+}
+.btn button a{
+    color: white;
+    font-weight: 500;
+}
+footer{
+    background-color: #008080;
+    padding-bottom: 20px;
+}
+.footer{
+    /* background-color: #008080; */
+    color: white;
+    border-top: 2px solid rgba(14, 19, 67, 0.942);
+    padding: 30px 50px;
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-around;
+}
+.logo-foot img{
+    width: 23vw;
+    min-width: 100px;
+}
+.content{
+    width: 35vw;
+    font-weight: 400;
+    line-height: 3vw;
+    color: rgb(4, 14, 35);
+    font-size: 1.8vw;
+
+}
+.foot-head{
+    font-size: 2.5vw;
+}
+.foot-links li a{
+    color: rgb(4, 14, 35);
+}
+.foot-links li{
+    text-align: center;
+    margin: 15px 0px;
+    font-size: 2.2vw;
+}
+.social-links{
+    text-align: center;
+    font-size: 2.2vw;
+    line-height: 2vw;
+}
+.social-links li{
+    margin: 20px 0px;
+}
+.copyright{
+    text-align: center;
+    color: rgb(4, 14, 35);
+}
+.copyright h3{
+    font-size: 10px;
+}
+
+@media  screen and (min-width: 1000px) {
+    .copyright h3{
+        font-size: 15px;
+    }
+    .social-links, {
+        font-size: 25px;
+        line-height: 20px;
+    }
+    .foot-links li{
+        font-size: 25px;
+        line-height: 25px;
+    }
+    .foot-head{
+        font-size: 20px;
+    }
+    .content{
+        font-size: 15px;
+        line-height: 20px;
+    }
+    .aboutus p{
+        font-size: 20px;
+    }
+    .left .btn button{
+        font-size: 20px;
+    }
+    .left h3{
+        font-size: 25px;
+    }
+    #head1{
+        font-size: 45px;
+    }
+}
+@media  screen and (max-width: 700px) {
+    .navbar ul li{
+        font-size: 2vw;
+    }
+    footer{
+        gap: 20px;
+    }
+}

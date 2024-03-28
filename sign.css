@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Albert+Sans:ital,wght@0,100..900;1,100..900&family=Spinnaker&display=swap');
+
+/* sapgreen-: #008080
+ lightblue: #0d6efd*/
+*{
+    font-family: "Spinnaker", sans-serif;
+    margin: 0;
+    padding: 0;
+    font-weight: 600;
+    /* background-color: blueviolet; */
+}
+a{
+  text-decoration: none;
+  color: black;
+}
+ul li{
+  list-style: none;
+}
+.navbar{
+  display: flex;
+  /* width: 100vw; */
+  align-items: center;
+  justify-content: space-around;
+  background-color: #008080;
+  padding: 1vw 0;
+  /* border-bottom: 2px solid BLACK; */
+  box-shadow: 0px 1px 6px black;
+  margin-bottom: 80px;
+
+}
+.navbar .navoptions ul{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 40vw;
+  flex-wrap: wrap;
+}
+.navbar .logo img{
+  width: 10vw;
+  min-width: 55px;
+}
+.navbar .navoptions li :hover{
+  color: white;
+  padding: 5px 12px;
+  border-bottom: 2px solid white;
+  /* transition-duration: 3ms; */
+}
+.container{
+    display: flex;
+}
+.contimg img{
+    width: 550px;
+}
+.form{
+    /* border: 1px solid black; */
+    width: 70%;
+    padding: 30px 40px;
+    box-shadow: 0 5px 10px rgba(0,0,0,0.2);
+}
+.head h2{
+    text-align: center;
+    margin-bottom:40px;
+    color: #339f9f;
+}
+.details input{
+    height: 100%;
+    min-width: 60%;
+    outline: none;
+    /* border: none; */
+    padding: 0 30px;
+    font-size: 16px;
+    font-weight: 500;
+    border: 2px solid rgba(0,0,0,0.2);
+    height: 40px;
+    transition: all 0.3s ease;
+    margin-bottom: 20px;
+}
+.place{
+    font-style: italic;
+}
+.details label{
+    font-size: 1.2rem;
+    color: rgb(180, 70, 31);
+}
+#num{
+    min-width:50% ;
+}
+#col{
+    min-width: 55%;
+}
+#id{
+    min-width: 40%;
+}
+.button-input-box a{
+  border: 1px solid;
+  background-color: #14a3a3;
+  border-radius: 6px;
+  height: 50px;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+.button-input-box a:hover{
+  background: #067272;
+}
+footer{
+    background-color: #008080;
+    padding-bottom: 20px;
+    margin-top: 80px;
+  }
+  .footer{
+    /* background-color: #008080; */
+    color: white;
+    border-top: 2px solid rgba(14, 19, 67, 0.942);
+    padding: 30px 50px;
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-around;
+  }
+  .logo-foot img{
+    width: 300px;
+    height: 100px;
+  }
+  .content{
+    width: 400px;
+    line-height: 1.5rem;
+    color: rgb(4, 14, 35);
+  }
+  .foot-links li a{
+    color: rgb(4, 14, 35);
+  }
+  .foot-links li{
+    text-align: center;
+    margin: 15px 0px;
+    font-size: 1.1rem;
+  }
+  .social-links{
+    text-align: center;
+    font-size: 1.5rem;
+  }
+  .social-links li{
+    margin: 20px 0px;
+  }
+  .copyright{
+    text-align: center;
+    color: rgb(4, 14, 35);
+  }
+  #doc{
+    color: rgb(27, 25, 1);
+  }
