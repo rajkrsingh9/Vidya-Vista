@@ -44,7 +44,11 @@
     font-family: 'Lato';
     font-weight: 400;
   }
-  
+  .fa-xs {
+    font-size: 1.7vw;
+    line-height: .08333em;
+    vertical-align: .125em;
+}
   .form-control, 
   textarea {
     width: 25vw;
@@ -223,4 +227,4 @@
   }
 
   } */
- main
+ 
