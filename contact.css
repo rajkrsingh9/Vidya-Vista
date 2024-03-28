@@ -4,27 +4,35 @@
     height: 100%;
     margin: 0;
     padding: 0 0 10px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
   }
   
   .section-header {
     text-align: center;
     margin: 0 auto;
-    padding: 40px 0;
-    font: 300 60px 'Oswald', sans-serif;
+    padding: 6vw 0;
+    /* font: 300 60px 'Oswald', sans-serif; */
     color: black;
     text-transform: uppercase;
     letter-spacing: 6px;
+    font-size: 6vw;
     
   }
   
   .contact-wrapper {
     display: flex;
-    flex-direction: row;
+    /* flex-direction: row; */
     justify-content: space-between;
+    align-items: center;
     margin: 0 auto;
-    padding: 20px;
-    position: relative;
-    max-width: 840px;
+    padding: 4vw;
+    /* position: relative; */
+    width: 60vw;
+    flex-wrap: wrap;
+    /* max-width: ; */
     background-color: #84dadabe;
     
   }
@@ -32,38 +40,38 @@
   /* Left contact page */
   .form-horizontal {
     /*float: left;*/
-    max-width: 360px;
+    width: 25vw;
     font-family: 'Lato';
     font-weight: 400;
   }
   
   .form-control, 
   textarea {
-    width: 360px;
+    width: 25vw;
     background-color: white;
     color: #fff;
-    letter-spacing: 1px;
+    letter-spacing: 0.4vw;
     text-align: center;
   }
   
   .send-button {
-    margin-top: 15px;
-    height: 54px;
-    width: 360px;
+    margin-top: 3vw;
+    height: 5vw;
+    width: 25vw;
     overflow: hidden;
     transition: all .2s ease-in-out;
   }
   
   .alt-send-button {
-    width: 360px;
-    height: 54px;
+    width: 25vw;
+    height: 5vw;
     transition: all .2s ease-in-out;
   }
   
   .send-text {
     display: block;
-    margin-top: 10px;
-    font: 700 12px 'Lato', sans-serif;
+    /* margin-top: 1vw; */
+    font: 700 1vw 'Lato', sans-serif;
     letter-spacing: 2px;
   }
   
@@ -73,13 +81,13 @@
   
   /* Begin Right Contact Page */
   .direct-contact-container {
-    max-width: 400px;
+    /* width: 25vw; */
   }
   
   /* Location, Phone, Email Section */
   .contact-list {
     list-style-type: none;
-    margin-left: -30px;
+    /* margin-left: -5vw; */
     padding-right: 20px;
   }
   
@@ -89,21 +97,22 @@
   }
   
   .contact-text {
-    font: 300 18px 'Lato', sans-serif;
+    font: 300 1.2vw 'Lato', sans-serif;
     letter-spacing: 1.9px;
     color: black;
   }
   
   .place {
-    margin-left: 62px;
+    margin-left: 6vw;
   }
   
   .phone {
-    margin-left: 56px;
+    margin-left: 6vw;
   }
   
   .gmail {
-    margin-left: 53px;
+    margin-left: 6vw;
+    /* padding-bottom: 6vw; */
   }
   
   .contact-text a {
@@ -118,22 +127,34 @@
   }
   
   .copyright {
-    font: 200 14px 'Oswald', sans-serif;
+    font: 200 1vw 'Oswald', sans-serif;
     color: #555;
     letter-spacing: 1px;
     text-align: center;
+    padding-top: 4px;
   }
   
   hr {
+    margin-top: 6vw;
     border-color: rgba(255,255,255,.6);
   }
   
-  /* Begin Media Queries*/
-  @media screen and (max-width: 850px) {
+  @media screen and (max-width: 800px){
     .contact-wrapper {
       display: flex;
       flex-direction: column;
     }
+    .place, .phone{
+      font-size: 10px;
+    }
+    .gmail{
+      font-size: 1.5vw;
+    }
+    
+  }
+  /* Begin Media Queries*/
+  /* @media screen and (max-width: 850px) {
+    
     .direct-contact-container, .form-horizontal {
       margin: 0 auto;
     }  
@@ -152,8 +173,8 @@
       height: 60px;
       line-height: 60px;
     }
-  }
-  
+  } */
+/*   
   @media screen and (max-width: 569px) {
   
     .direct-contact-container, .form-wrapper {
@@ -195,4 +216,4 @@
     .send-button {
       width: 99%;
     }
-  }
+  } */
