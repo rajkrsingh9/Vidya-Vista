@@ -63,3 +63,6 @@
 .image3{
     width: 700px;
 }
+.foot-links li a:hover{
+    color: white;
+  }

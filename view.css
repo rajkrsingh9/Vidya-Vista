@@ -1,10 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Albert+Sans:ital,wght@0,100..900;1,100..900&family=Spinnaker&display=swap');
 
-/* sapgreen-: #008080
- lightblue: #0d6efd*/
- html{
-    overflow-x: hidden;
- }
 
 *{
     font-family: "Spinnaker", sans-serif;
@@ -49,92 +44,52 @@ ul li{
     border-bottom: 2px solid white;
     /* transition-duration: 3ms; */
 }
-.projects{
-    /* background-image: url(projects.svg);
-    background-repeat: no-repeat;
-    background-size: 600; */
-     /* margin: auto;  */
-     display: flex;
-     justify-content: center;
-     align-items: flex-end;
-     padding-top: 8px;
-     width: 100vw;
- 
+.head p{
+    text-align: center;
+    margin: 60px 0px;
+    font-size: 1.2rem;
+    padding: 0px 180px;
 }
-.projects img{
-    position: relative;
-    height: 30vw;
+.container{
+    padding: 0px 50px;
 }
-.projects button{
-    position: absolute;
-    margin-bottom: 5vw;
-    height: 4vw;
-    font-size: 1.3vw;
-    width: 18vw;
-    min-height: 20px;
-    min-width: 50px;
-    background-color: transparent;
-    border-radius: 10px;
-    border: 0px solid black;
-    box-shadow: inset 15px 0px 64px #008080;
-}
-.aboutus{
-    /* margin-top: 30px; */
-    /* width: 100vw; */
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 5vw 0;
-    flex-wrap: wrap;
-}
-.aboutus p{
-    font-weight: 400;
-    font-size: 1.7vw;
-}
-.left{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    width: 45vw;
-    gap: 10px;
-}
-.right{
-    width: 45vw;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-.right img{
-    width: 25vw;
-}
-#head1{
-    display: flex;
-    font-size: 3.5vw;
-}
-#color{
-    color: #008080;
-}
-.left h3{
-    color: rgb(99, 98, 98);
-    font-size: 2vw;
-}
-.left .btn{
-    font-weight: 400;
-    /* color: white !important; */
-}
-.left .btn button{
+.card1{
     border: 1px solid black;
-    border-radius: 9px;
+    width: 450px;
+    height: 540px;
+    box-shadow: 0 5px 10px rgba(0,0,0,0.2);
+}
+.image1 img{
+    width: 380px;
+    padding: 20px 35px;
     background-color: #008080;
-    padding: 1vw 2.5vw;
-    font-size: 1.6vw;
-    /* color: white !important; */
 }
-.btn button a{
-    color: white;
+.details1 p {
     font-weight: 500;
+    font-size: 1.2rem;
+    padding: 5px 10px;
+    color: rgb(6, 18, 107);
+
 }
+.details1 i{
+    font-weight: 400;
+}
+.details1 span{
+    border: 1px solid ;
+    background-color: #046464;
+    color: white;
+    padding: 20px 40px;
+    border-radius:6px;
+    margin: 0px 40px;
+}
+.details1 span a{
+    color: white;
+}
+.made{
+    margin-bottom: 50px;
+}
+
+
 footer{
     background-color: #008080;
     padding-bottom: 20px;
@@ -186,7 +141,6 @@ footer{
 .copyright h3{
     font-size: 10px;
 }
-
 @media  screen and (min-width: 1000px) {
     .copyright h3{
         font-size: 15px;

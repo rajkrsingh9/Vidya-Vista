@@ -196,3 +196,6 @@
       width: 99%;
     }
   }
+  .foot-links li a:hover{
+    color: white;
+  }
