@@ -19,7 +19,11 @@ a{
     padding: 0px 180px;
 }
 .container{
-    padding: 0px 50px;
+    padding: 0px 80px;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows:repeat(2,1fr) ;
+    gap: 50px;
 }
 .card1{
     border: 1px solid black;
@@ -55,4 +59,123 @@ a{
 }
 .made{
     margin-bottom: 50px;
+}
+.card2{
+    border: 1px solid black;
+    width: 450px;
+    height: 540px;
+    box-shadow: 0 5px 10px rgba(0,0,0,0.2);
+}
+.image2 img{
+    width: 400px;
+    padding: 20px 20px;
+    height: 300px;
+    /* background-color: #008080; */
+}
+.details2 p {
+    font-weight: 500;
+    font-size: 1.2rem;
+    padding: 5px 10px;
+    color: rgb(6, 18, 107);
+
+}
+.details2 i{
+    font-weight: 400;
+}
+.details2 span{
+    border: 1px solid ;
+    background-color: #046464;
+    color: white;
+    padding: 20px 40px;
+    border-radius:6px;
+    margin: 0px 40px;
+}
+.details2 span a{
+    color: white;
+}
+.made{
+    margin-bottom: 50px;
+}
+.card3{
+    border: 1px solid black;
+    width: 450px;
+    height: 540px;
+    box-shadow: 0 5px 10px rgba(0,0,0,0.2);
+}
+.image3 img{
+    width: 400px;
+    padding: 20px 20px;
+    height: 300px;
+    /* background-color: #008080; */
+}
+.details3 p {
+    font-weight: 500;
+    font-size: 1.2rem;
+    padding: 5px 10px;
+    color: rgb(6, 18, 107);
+
+}
+.details3 i{
+    font-weight: 400;
+}
+.details3 span{
+    border: 1px solid ;
+    background-color: #046464;
+    color: white;
+    padding: 20px 40px;
+    border-radius:6px;
+    margin: 0px 40px;
+}
+.details3 span a{
+    color: white;
+}
+.made{
+    margin-bottom: 50px;
+}
+.card4{
+    border: 1px solid black;
+    width: 450px;
+    height: 540px;
+    box-shadow: 0 5px 10px rgba(0,0,0,0.2);
+}
+.image4 img{
+    width: 400px;
+    padding: 20px 20px;
+    height: 300px;
+    /* background-color: #008080; */
+}
+.details4 p {
+    font-weight: 500;
+    font-size: 1.2rem;
+    padding: 5px 10px;
+    color: rgb(6, 18, 107);
+
+}
+.details4 i{
+    font-weight: 400;
+}
+.details4 span{
+    border: 1px solid ;
+    background-color: #046464;
+    color: white;
+    padding: 20px 40px;
+    border-radius:6px;
+    margin: 0px 40px;
+}
+.details4 span a{
+    color: white;
+}
+.made{
+    margin-bottom: 50px;
+}
+@media screen and (max-width:500px) {
+    .container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .head p{
+        padding: 0px;
+    }
 }
