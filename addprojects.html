@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VidyaVista</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="addprojects.css">
+</head>
+
+<body>
+    <div class="main">
+        <div class="navbar">
+            <div class="logo">
+                <img src="VidyaVista.png" alt="">
+            </div>
+            <div class="navoptions">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="aboutus.html">About</a></li>
+                    <li><a href="view.html">View Projects</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="login.html">LogIn / SignUp</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="container">
+            <h1>Enter Personal Details</h1>
+            <form id="personal-details-form" action="process_personal_details.php" method="POST">
+                <span>
+                    <label for="author_name">Name of Author:</label>
+                    <input type="text" id="author_name" name="author_name" required><br><br>
+                </span><span>
+                    <label for="year_studying">Year of Studying:</label>
+                    <input type="number" id="year_studying" name="year_studying" required><br><br>
+                </span><span>
+                    <label for="college_name">College Name:</label>
+                    <input type="text" id="college_name" name="college_name" required><br><br>
+                </span><span>
+                    <label for="university_roll_number">University Roll Number:</label>
+                    <input type="text" id="university_roll_number" name="university_roll_number" required><br><br>
+                </span><span>
+                    <label for="phone_number">Phone Number:</label>
+                    <input type="text" id="phone_number" name="phone_number" required><br><br>
+                </span><span>
+                    <label for="email">Email ID:</label>
+                    <input type="email" id="email" name="email" required><br><br>
+                </span><span>
+                    <label for="university_reg_number">University Registration Number:</label>
+                    <input type="text" id="university_reg_number" name="university_reg_number"><br><br>
+                </span><span>
+                    <label for="aadhar_number">Aadhar Number:</label>
+                    <input type="text" id="aadhar_number" name="aadhar_number" required><br><br>
+                </span><span>
+                    <label for="worked_with_team">Worked with a team:</label>
+                    <input type="checkbox" id="worked_with_team" name="worked_with_team"><br><br>
+                </span><span>
+                    <div id="team_details" style="display: none;">
+                        <span>
+                            <label for="team_name">Team Name:</label>
+                            <input type="text" id="team_name" name="team_name"></span><br><br>
+                        <span>
+                            <label for="team_members">Team Members:</label>
+                            <textarea id="team_members" name="team_members"></textarea></span><br><br>
+                    </div>
+                </span>
+                <span>
+                    <input type="submit" value="Next">
+                </span>
+            </form>
+        </div>
+        <div class="container">
+            <h1>Enter Project Details</h1>
+            <form id="project-details-form" action="process_project_details.php" method="POST">
+                <span>
+                    <label for="project_type">Type of Project:</label>
+                    <select id="project_type" name="project_type">
+                        <option value="software">Software</option>
+                        <option value="hardware">Hardware</option>
+                    </select>
+                </span><br><br>
+                <span>
+                    <label for="project_name">Project Name:</label>
+                    <input type="text" id="project_name" name="project_name" required><br><br>
+                </span><span>
+                    <label for="problem_statement">Problem Statement:</label>
+                    <textarea id="problem_statement" class="box" name="problem_statement" required></textarea><br><br>
+                </span><span>
+                    <label for="tag_line">Tag Line:</label>
+                    <input type="text" id="tag_line" name="tag_line" required><br><br>
+                </span><span>
+                    <label for="technologies_used">Technologies Used:</label>
+                    <input type="text" id="technologies_used " name="technologies_used" required><br><br>
+                </span><span>
+                    <label for="challenges">Challenges:</label>
+                    <textarea id="challenges" class="box" name="challenges" required></textarea><br><br>
+                </span><span>
+                    <label for="problem_solution">Problem Solution:</label>
+                    <textarea id="problem_solution" class="box" name="problem_solution" required></textarea><br><br>
+                </span><span>
+                    <label for="live_site_link">Live Site Link:</label>
+                    <input type="text" id="live_site_link" name="live_site_link"><br><br>
+                </span><span>
+                    <label for="video_demo_link">Video Demo Link:</label>
+                    <input type="text" id="video_demo_link" name="video_demo_link"><br><br>
+                </span><span>
+                    <label for="images">Images of Project:</label>
+                    <input type="file" id="images" name="images"><br><br>
+                </span><span>
+                    <label for="logo">Logo:</label>
+                    <input type="file" id="logo" name="logo"><br><br>
+                </span><span>
+                    <input type="submit" value="Preview and Submit">
+                </span>
+            </form>
+        </div>
+        <footer>
+            <div class="footer">
+                <div class="foot-left">
+                    <div class="logo-foot">
+                        <img src="VidyaVista.png" alt="">
+                    </div>
+                    <div class="content">
+                        <p>Streamlined platform for student collaboration, project submission, and networking.
+                            Facilitates
+                            seamless teamwork, feedback, and skill development in a vibrant community.</p>
+                    </div>
+                </div>
+                <div class="links-foot">
+                    <div class="foot-head">
+                        <h2>Quick Links</h2>
+                    </div>
+                    <div class="foot-links">
+                        <ul>
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="aboutus.html">About</a></li>
+                            <li><a href="view.html">View Projects</a></li>
+                            <li><a href="contact.html">Contact</a></li>
+                            <li><a href="login.html">Login/SignUp</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="foot-right">
+                    <div class="foot-head">
+                        <h2>Social Links</h2>
+                    </div>
+                    <div class="social-links">
+                        <ul>
+                            <li><a href="https://www.linkedin.com/in/be-raj-kumar-singh-" target="_blank"><i
+                                        class="fa-brands fa-linkedin fa-lg" style="color: white;"></i></a></li>
+                            <li><a href="https://github.com/rajkrsingh9" target="_blank"><i
+                                        class="fa-brands fa-github fa-lg" style="color: white;"></i> </a></li>
+                            <li><a href="" target="_blank"><i class="fa-brands fa-x-twitter"
+                                        style="color: white;"></i></a></li>
+                            <li><a href="" target="_blank"><i class="fa-brands fa-facebook"
+                                        style="color: white;"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="copyright">
+                <h3>© 2024 Developed By Team Predecon. All Right Reserved</h3>
+            </div>
+        </footer>
+    </div>
+    <script src="addprojects.js"></script>
+</body>
+
+</html>

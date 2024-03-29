@@ -1,7 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Albert+Sans:ital,wght@0,100..900;1,100..900&family=Spinnaker&display=swap');
 
-/* sapgreen-: #008080
- lightblue: #0d6efd*/
  html{
     overflow-x: hidden;
  }
@@ -11,12 +9,16 @@
     margin: 0;
     padding: 0;
     font-weight: 600;
+    transition: all 0.3s ;
     /* background-color: blueviolet; */
 }
 a{
     text-decoration: none;
     color: black;
     transition-duration: 0.3s ;
+}
+a:hover{
+    filter: invert(100%);
 }
 ul li{
     list-style: none;
@@ -44,10 +46,9 @@ ul li{
     width: 10vw;
     min-width: 55px;
 }
-.navbar .navoptions li :hover{
-    color: white;
+.navbar .navoptions li a:hover {
     padding: 5px 12px;
-    border-bottom: 2px solid white;
+    border-bottom: 2px solid black;
     /* transition-duration: 3ms; */
 }
 .projects{
@@ -168,18 +169,24 @@ footer{
 .foot-links li a{
     color: rgb(4, 14, 35);
 }
-.foot-links li{
+.foot-links li {
     text-align: center;
     margin: 15px 0px;
-    font-size: 2.2vw;
+    
+}
+.foot-links li a{
+    font-size: 1.1vw;
 }
 .social-links{
     text-align: center;
-    font-size: 2.2vw;
+    
     line-height: 2vw;
 }
 .social-links li{
     margin: 20px 0px;
+}
+.social-links li a{
+    font-size: 1.2vw;
 }
 .copyright{
     text-align: center;
@@ -199,7 +206,7 @@ footer{
     }
     .foot-links li{
         font-size: 25px;
-        line-height: 25px;
+        line-height: 14px;
     }
     .foot-head{
         font-size: 20px;
@@ -229,6 +236,6 @@ footer{
         gap: 20px;
     }
 }
-.foot-links li a:hover{
+/* .foot-links li a:hover{
   color: white;
-}
+} */

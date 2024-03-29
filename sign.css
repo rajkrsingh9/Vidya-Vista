@@ -13,73 +13,47 @@ a{
   text-decoration: none;
   color: black;
 }
-ul li{
-  list-style: none;
-}
-.navbar{
-  display: flex;
-  /* width: 100vw; */
-  align-items: center;
-  justify-content: space-around;
-  background-color: #008080;
-  padding: 1vw 0;
-  /* border-bottom: 2px solid BLACK; */
-  box-shadow: 0px 1px 6px black;
-  margin-bottom: 80px;
-
-}
-.navbar .navoptions ul{
-  display: flex;
-  align-items: center;
-  justify-content: space-around;
-  width: 40vw;
-  flex-wrap: wrap;
-}
-.navbar .logo img{
-  width: 10vw;
-  min-width: 55px;
-}
-.navbar .navoptions li :hover{
-  color: white;
-  padding: 5px 12px;
-  border-bottom: 2px solid white;
-  /* transition-duration: 3ms; */
-}
 .container{
     display: flex;
+    justify-content: center;
+    align-items: flex-end;
 }
 .contimg img{
     width: 550px;
 }
 .form{
     /* border: 1px solid black; */
-    width: 70%;
-    padding: 30px 40px;
+    width: 65vw;
+    padding: 3vw 4vw;
     box-shadow: 0 5px 10px rgba(0,0,0,0.2);
 }
 .head h2{
     text-align: center;
-    margin-bottom:40px;
+    margin-bottom: 4vw;
     color: #339f9f;
 }
 .details input{
-    height: 100%;
-    min-width: 60%;
+    /* height: 100%; */
+    /* min-width: 60%; */
     outline: none;
     /* border: none; */
-    padding: 0 30px;
-    font-size: 16px;
+    /* padding: 0 30px; */
+    font-size: 15px;
     font-weight: 500;
     border: 2px solid rgba(0,0,0,0.2);
-    height: 40px;
+    height: 2vw;
     transition: all 0.3s ease;
-    margin-bottom: 20px;
+    margin-bottom: 2.2vw;
 }
 .place{
     font-style: italic;
 }
+.details{
+  display: flex;
+  flex-direction: column;
+}
 .details label{
-    font-size: 1.2rem;
+    font-size: 1.2vw;
     color: rgb(180, 70, 31);
 }
 #num{
@@ -90,6 +64,9 @@ ul li{
 }
 #id{
     min-width: 40%;
+}
+#file{
+  padding: 0 0 7px 0;
 }
 .button-input-box a{
   border: 1px solid;
