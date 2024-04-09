@@ -2,21 +2,11 @@
 
 /* sapgreen-: #008080
  lightblue: #0d6efd*/
-*{
-    font-family: "Spinnaker", sans-serif;
-    margin: 0;
-    padding: 0;
-    font-weight: 600;
-    /* background-color: blueviolet; */
-}
-a{
-  text-decoration: none;
-  color: black;
-}
+
 .navbar{
   margin-bottom: 3vw;
 }
-.container{
+.container-login{
   margin: auto;
   position: relative;
   max-width: 850px;
@@ -26,7 +16,7 @@ a{
   box-shadow: 0 5px 10px rgba(0,0,0,0.2);
   perspective: 2700px;
 }
-.container .cover{
+.container-login .cover{
   position: absolute;
   top: 0;
   left: 50%;
@@ -37,11 +27,11 @@ a{
   transform-origin: left;
   transform-style: preserve-3d;
 }
-.container #flip:checked ~ .cover{
+.container-login #flip:checked ~ .cover{
   transform: rotateY(-180deg);
 }
- .container .cover .front,
- .container .cover .back{
+ .container-login .cover .front,
+ .container-login .cover .back{
   position: absolute;
   top: 0;
   left: 0;
@@ -52,8 +42,8 @@ a{
   transform: rotateY(180deg);
   backface-visibility: hidden;
 }
-.container .cover::before,
-.container .cover::after{
+.container-login .cover::before,
+.container-login .cover::after{
   content: '';
   position: absolute;
   height: 100%;
@@ -61,19 +51,19 @@ a{
   background: #0c7070;
   opacity: 0.5;
 }
-.container .cover::after{
+.container-login .cover::after{
   opacity: 0.3;
   transform: rotateY(180deg);
   backface-visibility: hidden;
 }
-.container .cover img{
+.container-login .cover img{
   position: absolute;
   height: 100%;
   width: 100%;
   object-fit: cover;
   z-index: 10;
 }
-.container .cover .text{
+.container-login .cover .text{
   position: absolute;
   z-index: 130;
   height: 100%;
@@ -83,12 +73,12 @@ a{
   align-items: center;
   justify-content: center;
 }
-.container .forms{
+.container-login .forms{
   height: 100%;
   width: 100%;
   background: #fff;
 }
-.container .form-content{
+.container-login .form-content{
   display: flex;
   align-items: center;
   justify-content: space-between;

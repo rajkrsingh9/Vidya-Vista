@@ -117,7 +117,7 @@ ul li{
     border: 0px solid black;
     box-shadow: inset 15px 0px 64px #008080;
 }
-.aboutus{
+.aboutus-i{
     /* margin-top: 30px; */
     /* width: 100vw; */
     display: flex;
@@ -126,7 +126,7 @@ ul li{
     margin: 5vw auto;
     flex-wrap: wrap;
 }
-.aboutus p{
+.aboutus-i p{
     font-weight: 400;
     font-size: 1.7vw;
 }
@@ -180,7 +180,7 @@ footer{
 }
 .footer{
     /* background-color: #008080; */
-    color: white;
+    
     border-top: 2px solid rgba(14, 19, 67, 0.942);
     padding: 30px 50px;
     margin-top: 30px;
@@ -200,12 +200,13 @@ footer{
     font-size: 1.8vw;
 
 }
-.foot-head{
+.foot-head h2{
     font-size: 2.5vw;
+    color: white;
 }
-.foot-links li a{
+/* .foot-links li a{
     color: rgb(4, 14, 35);
-}
+} */
 .foot-links li {
     text-align: center;
     margin: 15px 0px;
@@ -281,6 +282,13 @@ footer{
     }
     .menu-button{
         display: block;
+    }
+    .aboutus-i{
+        flex-direction: column;
+    }
+    .right img{
+        width: 50vw;
+        margin: 25px 0;
     }
 }
 @media( max-width: 360px){

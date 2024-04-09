@@ -1,12 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Albert+Sans:ital,wght@0,100..900;1,100..900&family=Spinnaker&display=swap');
 
-*{
-    font-family: "Spinnaker", sans-serif;
-    margin: 0;
-    padding: 0;
-    font-weight: 600;
-    /* background-color: blueviolet; */
-}
 .aboutus{
     display: flex;
     flex-direction: column;
@@ -14,6 +7,7 @@
     align-items: center;
     /* padding: 20px 10vw; */
     padding: 2.5vw 0;
+    flex-wrap: wrap;
 }
 .aboutus p{
     font-weight: 400;
@@ -26,6 +20,7 @@
     justify-content: center;
     align-items: center;
     width: 80vw;
+    flex-wrap: wrap;
 }
 .content-1{
     line-height: 1.8vw;
@@ -37,6 +32,17 @@
 }
 .image1 img{
     width: 40vw;
+}
+@media( max-width: 950px) {
+    .container1{
+        flex-direction: column;
+    }
+    .image1 img{
+        width: 40vw;
+    }
+    .content-1{
+        width: 80vw;
+    }
 }
 /* .container2{
     margin-top: 60px;
