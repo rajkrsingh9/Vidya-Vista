@@ -6,4 +6,5 @@ We have used
 2) Google Fonts for fonts
 
 
-![image](https://github.com/rajkrsingh9/Vidya-Vista/assets/143270207/3456c8ac-2ee2-4514-bd9a-d8676aeffd29)
+![image](https://github.com/rajkrsingh9/Vidya-Vista/assets/143270207/380c8df5-94b8-4b96-b6eb-9f9fd5407162)
+
